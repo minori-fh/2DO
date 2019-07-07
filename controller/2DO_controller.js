@@ -7,6 +7,7 @@ var toDo = require("../model/2DO.js");
 // Create all our routes and set up logic within those routes where required.
 router.get("/", function(req, res) {
     toDo.all(function(data) {
+      console.log(data.length)
       var hbsObject = {
         toDo_tasks: data
       };
