@@ -1,0 +1,11 @@
+DROP DATABASE IF EXISTS toDo_db; 
+CREATE DATABASE toDo_db; 
+USE toDo_db; 
+
+CREATE TABLE toDo_tasks
+(
+    id INTEGER NOT NULL AUTO_INCREMENT,
+    task VARCHAR (1000) NOT NULL,
+    complete BOOLEAN DEFAULT false, 
+    PRIMARY KEY (id)
+);
