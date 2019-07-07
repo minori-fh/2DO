@@ -1,0 +1,9 @@
+<li>
+	{{task}}
+
+	<button class="change-complete" data-id="{{id}}" data-newcomplete="{{complete}}">
+		{{#if complete}}REACTIVATE{{else}}DONE{{/if}}
+	</button>
+
+	<button class="delete-task" data-id="{{this.id}}">DELETE!</button>
+</li>

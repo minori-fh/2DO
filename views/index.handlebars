@@ -11,4 +11,23 @@
     {{/each}}
 </ul>
 
+<h2>Tasks that are not complete!</h2>
+
+<ul>
+  {{#each toDo_tasks}}
+    {{#unless complete}}
+      {{> tasks/task-block}}
+    {{/unless}}
+  {{/each}}
+</ul>
+
+<h2>Tasks that are complete!</h2>
+
+<ul>
+  {{#each toDo_tasks}}
+    {{#if complete}}
+      {{> tasks/task-block}}
+    {{/if}}
+  {{/each}}
+</ul>
 
