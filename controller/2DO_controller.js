@@ -32,7 +32,7 @@ router.put("/api/tasks/:id", function(req, res){
   console.log("condition", condition);
 
   toDo.update({
-    sleepy: req.body.complete
+    complete: req.body.complete
   }, condition, function(result){
     if (result.changedRows == 0){
       return res.status(404).end();

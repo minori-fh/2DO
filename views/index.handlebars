@@ -1,11 +1,10 @@
-<h1>Tasks!</h1>
+<h1>2DOTasks</h1>
 
 <h2>All Tasks</h2>
 
 <ul>
     {{#each toDo_tasks}}
     <li>
-        {{this.id}}
         {{this.task}}
     </li>
     {{/each}}
@@ -32,11 +31,11 @@
 </ul>
 
 <h2>Add New 2DOTask</h2>
-<form>
+<form class = "new-task-form">
 
   <div class="form-group">
-    <label>Task:</label>
-    <input type="text" name="task">
+    <label for = "newTask">Task:</label>
+    <input type="text" id = "newTask" name="task">
   </div>
 
   <button type="submit">Add 2DO Task</button>
