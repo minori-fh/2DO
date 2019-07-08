@@ -34,6 +34,31 @@
             </div>
         </div>
     </div>
+
+    <div class = "col-md-4">
+        <div class = "row">
+            <div class = "col-md-12">
+                <ul class="list-group" id = "2DOs">
+                    <li class="list-group-item bg-success header"><b> Complete 2DOs</b></li>
+                    {{!-- <li class="list-group-item 2DO-task">task 1</li>
+                    <li class="list-group-item 2DO-task">task 2</li>
+                    <li class="list-group-item 2DO-task">task 3</li>
+                    <li class="list-group-item 2DO-task">task 4</li> --}}
+                    {{!-- {{#each toDo_tasks}}
+                        <li class="list-group-item 2DO-task">
+                            {{this.task}}
+                        </li>
+                    {{/each}} --}}
+
+                    {{#each toDo_tasks}}
+                        {{#if complete}}
+                            {{> tasks/task-block}}
+                        {{/if}}
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
 </div>
 
 <h2>Tasks that are not complete!</h2>
