@@ -4,6 +4,10 @@ nav {
     text-align: left; 
 }
 
+.navbar {
+    text-align: left !important; 
+}
+
 p {
     margin: 0px !important; 
 }
@@ -14,9 +18,19 @@ p {
 }
 
 #logo {
-    margin-right: 89% !important;
     font-family: 'Bevan', cursive;
     font-size: 25px;  
+    display: inline !important; 
+    margin: 0 !important; 
+}
+
+#slogan {
+    display: inline !important; 
+    margin: 0 !important; 
+}
+
+#image-logo {
+    margin-top: 5px; 
 }
 
 input[type=text]:focus {
