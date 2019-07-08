@@ -40,16 +40,6 @@
             <div class = "col-md-12">
                 <ul class="list-group" id = "2DOs">
                     <li class="list-group-item bg-success header"><b> Complete 2DOs</b></li>
-                    {{!-- <li class="list-group-item 2DO-task">task 1</li>
-                    <li class="list-group-item 2DO-task">task 2</li>
-                    <li class="list-group-item 2DO-task">task 3</li>
-                    <li class="list-group-item 2DO-task">task 4</li> --}}
-                    {{!-- {{#each toDo_tasks}}
-                        <li class="list-group-item 2DO-task">
-                            {{this.task}}
-                        </li>
-                    {{/each}} --}}
-
                     {{#each toDo_tasks}}
                         {{#if complete}}
                             {{> tasks/task-block}}
@@ -59,36 +49,19 @@
             </div>
         </div>
     </div>
+
+    <div class = "col-md-4">
+        <div class = "row">
+            <div class = "col-md-12">
+                <ul class="list-group" id = "2DOs">
+                    <li class="list-group-item bg-warning header"><b> Incomplete 2DOs</b></li>
+                    {{#each toDo_tasks}}
+                        {{#unless complete}}
+                            {{> tasks/task-block}}
+                        {{/unless}}
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
 </div>
-
-<h2>Tasks that are not complete!</h2>
-
-<ul>
-  {{#each toDo_tasks}}
-    {{#unless complete}}
-      {{> tasks/task-block}}
-    {{/unless}}
-  {{/each}}
-</ul>
-
-<h2>Tasks that are complete!</h2>
-
-<ul>
-  {{#each toDo_tasks}}
-    {{#if complete}}
-      {{> tasks/task-block}}
-    {{/if}}
-  {{/each}}
-</ul>
-
-<h2>Add New 2DOTask</h2>
-<form class = "new-task-form">
-
-  <div class="form-group">
-    <label for = "newTask">Task:</label>
-    <input type="text" id = "newTask" name="task">
-  </div>
-
-  <button type="submit">Add 2DO Task</button>
-</form>
-
