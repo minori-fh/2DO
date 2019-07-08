@@ -19,6 +19,25 @@ p {
     font-size: 25px;  
 }
 
+input[type=text]:focus {
+    color: black !important; 
+}
+
+.main-row, .input-row {
+    margin-top: 3%;
+    margin-left: 3% !important;  
+    margin-right: 3% !important; 
+}
+
+.header {
+    font-family: 'Patua One', cursive;
+    font-size: 22px; 
+}
+
+.new-task {
+    color: white !important; 
+}
+
 /*
 .main-row, .input-row {
     margin-top: 3%;
