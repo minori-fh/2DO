@@ -11,7 +11,7 @@ router.get("/", function(req, res) {
       var hbsObject = {
         toDo_tasks: data
       };
-      console.log(hbsObject);
+      console.log(hbsObject);r
       res.render("index", hbsObject);
     });
 });
