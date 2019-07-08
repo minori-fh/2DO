@@ -1,9 +1,9 @@
 <li class="list-group-item 2DO-task">
 	{{task}}
 
-	<button class="change-complete" data-id="{{id}}" data-newcomplete="{{complete}}">
-		{{#if complete}}REACTIVATE{{else}}DONE{{/if}}
+	<button class="change-complete action-button" data-id="{{id}}" data-newcomplete="{{complete}}">
+		{{#if complete}} REACTIVATE {{else}}<img id = "done" src = "assets/images/done.png">{{/if}}
 	</button>
 
-	<button class="delete-task" data-id="{{this.id}}">DELETE!</button>
+	<button class="delete-task action-button" data-id="{{this.id}}"><img id = "delete" src = "assets/images/delete.png"></button>
 </li>

@@ -38,6 +38,17 @@ input[type=text]:focus {
     color: white !important; 
 }
 
+.action-button {
+    background-color: transparent; 
+    border: none; 
+    width: 20%; 
+}
+
+#delete, #done {
+    width: 40%; 
+    margin: none; 
+}
+
 /*
 .main-row, .input-row {
     margin-top: 3%;
