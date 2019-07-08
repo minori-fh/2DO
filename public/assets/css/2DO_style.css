@@ -59,8 +59,25 @@ input[type=text]:focus {
 }
 
 #delete, #done {
-    width: 40%; 
+    width: 70%; 
     margin: none; 
+}
+
+#add {
+    color: white !important; 
+}
+
+.action-button {
+    width: 50px;
+}
+
+#buttons {
+    display: inline; 
+}
+
+#reactivate {
+    width: 100%; 
+    border: solid grey 1px; 
 }
 
 /*
