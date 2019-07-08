@@ -1,0 +1,51 @@
+nav {
+    color: white !important; 
+    background-color: rgb(18, 30, 42) !important; 
+    text-align: left; 
+}
+
+p {
+    margin: 0px !important; 
+}
+
+.header {
+    font-family: 'Patua One', cursive;
+    font-size: 22px; 
+}
+
+#logo {
+    margin-right: 89% !important;
+    font-family: 'Bevan', cursive;
+    font-size: 25px;  
+}
+
+/*
+.main-row, .input-row {
+    margin-top: 3%;
+    margin-left: 3%;  
+    margin-right: 3%; 
+}
+
+#priority2DOs, #scoreboard {
+    margin-top: 23px; 
+}
+
+.header {
+    font-family: 'Patua One', cursive;
+    font-size: 22px; 
+}
+
+.new-task {
+    color: white !important; 
+    border: none !important; 
+}
+
+#logo {
+    margin-right: 89% !important;
+    font-family: 'Bevan', cursive;
+    font-size: 25px;  
+}
+
+input[type=text]:focus {
+    color: black !important; 
+  } */
