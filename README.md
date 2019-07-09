@@ -21,7 +21,7 @@ Users can put complete tasks back in the incomplete listing by clicking reactiva
 7. Node*
 8. MySQL
 
-**NPM (node package manager) packages used: 
+*NPM (node package manager) packages used: 
 1. express
 2. express-handlebars
 3. mysql
