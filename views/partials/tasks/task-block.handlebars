@@ -1,7 +1,13 @@
 <li class="list-group-item 2DO-task">
 	{{task}}
+        <button type="button" class="delete-task action-button close" aria-label="Close" data-id="{{this.id}}">
+            <span aria-hidden="true">&times;</span>
+        </button>
+
+        {{!-- <button class="delete-task action-button" data-id="{{this.id}}"><img id = "delete" src = "assets/images/delete.png"></button> --}}
+
         {{#if complete}}
-        <button class="change-complete" data-id="{{id}}" data-newcomplete="{{complete}}">
+        <button class="change-complete bg-light" data-id="{{id}}" data-newcomplete="{{complete}}">
             reactivate
         </button>
         {{else}}
@@ -10,5 +16,5 @@
         </button>
         {{/if}}
 
-        <button class="delete-task action-button" data-id="{{this.id}}"><img id = "delete" src = "assets/images/delete.png"></button>
+        {{!-- <button class="delete-task action-button" data-id="{{this.id}}"><img id = "delete" src = "assets/images/delete.png"></button> --}}
 </li>

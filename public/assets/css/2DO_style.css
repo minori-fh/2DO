@@ -8,6 +8,10 @@ nav {
     text-align: left !important; 
 }
 
+body {
+    background-color: rgb(255, 255, 251) !important; 
+}
+
 p {
     margin: 0px !important; 
 }
@@ -80,6 +84,18 @@ input[type=text]:focus {
     border: solid grey 1px; 
 }
 
+button {
+    float: right; 
+    padding: none; 
+}
+
+.close {
+    margin-top: 3px; 
+}
+
+#add {
+    border: none !important; 
+}
 /*
 .main-row, .input-row {
     margin-top: 3%;
