@@ -1,6 +1,6 @@
 # 2DO
 
-## Directions on how to use the liri-node-app
+## Directions on how to use 2DO
 A 2DO application run on heroku to help you stay on top of your game! This app will help users keep track of all their "2DO"s by organizing what has been complete and what has not. 
 
 Users can put complete tasks back in the incomplete listing by clicking reactivate! 
@@ -9,7 +9,7 @@ Users can put complete tasks back in the incomplete listing by clicking reactiva
 
 
 ## Gifs of App
-![Site Screenshot](assets/images/siteImages/site.gif)
+![Site Screenshot](public/assets/images/siteImages/site.gif)
 
 ## Technologies Used
 1. HTML 
