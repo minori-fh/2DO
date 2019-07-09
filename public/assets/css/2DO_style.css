@@ -96,6 +96,26 @@ button {
 #add {
     border: none !important; 
 }
+
+#counter {
+    position: fixed; 
+    font-family: 'Patua One', cursive;
+    bottom: 0; 
+    width: 5%; 
+    height: 20%; 
+}
+#all-count {
+    background-color: rgb(18, 30, 42); 
+    color: white; 
+}
+
+#complete-count {
+    background-color: rgb(15, 170, 15);  
+}
+
+#incomplete-count {
+    background-color: red; 
+}
 /*
 .main-row, .input-row {
     margin-top: 3%;
