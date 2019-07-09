@@ -5,6 +5,8 @@ A 2DO application run on heroku to help you stay on top of your game! This app w
 
 Users can put complete tasks back in the incomplete listing by clicking reactivate! 
 
+[Click here to visit site](https://tasks-2do.herokuapp.com/)
+
 
 ## Gifs of App
 ![Site Screenshot](assets/images/siteImages/site.gif)
@@ -14,17 +16,13 @@ Users can put complete tasks back in the incomplete listing by clicking reactiva
 2. CSS
 4. Javascript
 5. jQuery
-6. API calls*
-7. Node**
-
-*APIs used: 
-1. OMDB API
-2. Bands In Town API
-3. Spotify API
+6. API calls
+7. Node
+8. MySQL
 
 **NPM External Packages used: 
-1. Moment
-2. Node-Spotify-API 
-3. Chalk
+1. express
+2. express-handlebars
+3. mysql
 
 ## Author(s): [Minori Hashimoto](https://github.com/minori-fh)
