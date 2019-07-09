@@ -28,24 +28,28 @@ $(function() {
 
     $(".new-task-form").on("submit", function(event){
         event.preventDefault();
-
-        var newTask= {
-            task: $("#newTask").val().trim(),
-            complete: "false"
-        };
-
-        // Send the POST request.
-        $.ajax("/api/tasks", {
-            type: "POST",
-            data: newTask
-        }).then(
-            function() {
-            console.log("created new task");
-            console.log(newTask)
-            // Reload the page to get the updated list
-            location.reload();
+        var input = $("#newTask").val().trim()
+        
+        // form validation to ensure input is not blank
+        if (input != ""){
+            var newTask= {
+                task: $("#newTask").val().trim(),
+                complete: "false"
+            };
+    
+            // Send the POST request.
+            $.ajax("/api/tasks", {
+                type: "POST",
+                data: newTask
+            }).then(
+                function() {
+                console.log("created new task");
+                console.log(newTask)
+                // Reload the page to get the updated list
+                location.reload();
+            }
+          );
         }
-      );
     });
 
     $(".delete-task").on("click", function(event){
