@@ -14,13 +14,14 @@ Users can put complete tasks back in the incomplete listing by clicking reactiva
 ## Technologies Used
 1. HTML 
 2. CSS
+3. Bootstrap
 4. Javascript
 5. jQuery
 6. API calls
-7. Node
+7. Node*
 8. MySQL
 
-**NPM External Packages used: 
+**NPM (node package manager) packages used: 
 1. express
 2. express-handlebars
 3. mysql
